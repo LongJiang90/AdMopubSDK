@@ -1,0 +1,6 @@
+framework module Pods_AdMopubSDK_Example {
+  umbrella header "Pods-AdMopubSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

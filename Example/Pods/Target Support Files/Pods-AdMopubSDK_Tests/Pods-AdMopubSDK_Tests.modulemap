@@ -1,0 +1,6 @@
+framework module Pods_AdMopubSDK_Tests {
+  umbrella header "Pods-AdMopubSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

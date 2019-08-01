@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0A65D506DEDC87550BB23FCA /* Pods-AdMopubSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMopubSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AdMopubSDK_Example/Pods-AdMopubSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		18B66C01B3682AE7F03598A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		18B66C01B3682AE7F03598A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1B261947E24477EC3A60EBC9 /* Pods-AdMopubSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMopubSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-AdMopubSDK_Example/Pods-AdMopubSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		42D1B802434D46F9939A7267 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		42D1B802434D46F9939A7267 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5BE8875488881A9C56A5A26E /* Pods-AdMopubSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMopubSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-AdMopubSDK_Tests/Pods-AdMopubSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AdMopubSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdMopubSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		838D9A8DB6900CC50F37D0AD /* Pods_AdMopubSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMopubSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E5CBBCE8E786902266EE07E /* AdMopubSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AdMopubSDK.podspec; path = ../AdMopubSDK.podspec; sourceTree = "<group>"; };
+		8E5CBBCE8E786902266EE07E /* AdMopubSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdMopubSDK.podspec; path = ../AdMopubSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		90A70EC4992B10D618D7786A /* Pods-AdMopubSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMopubSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AdMopubSDK_Tests/Pods-AdMopubSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				90A70EC4992B10D618D7786A /* Pods-AdMopubSDK_Tests.debug.xcconfig */,
 				5BE8875488881A9C56A5A26E /* Pods-AdMopubSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4E30BA4F67C96AF58A98A6FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -316,24 +315,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4E30BA4F67C96AF58A98A6FE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AdMopubSDK_Example/Pods-AdMopubSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AdMopubSDK/AdMopubSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdMopubSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMopubSDK_Example/Pods-AdMopubSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6DFCB9BBFD5F980290F797D3 /* [CP] Embed Pods Frameworks */ = {

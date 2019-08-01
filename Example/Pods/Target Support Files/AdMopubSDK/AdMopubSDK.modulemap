@@ -1,0 +1,6 @@
+framework module AdMopubSDK {
+  umbrella header "AdMopubSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
