@@ -15,6 +15,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol AdManagerDelegate <NSObject>
+
+@optional
 /**
  banner加载成功
  */
