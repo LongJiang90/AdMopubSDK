@@ -1,9 +1,9 @@
 {
   "name": "AdMopubSDK",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "summary": "快速集成广告.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/983220205@qq.com/AdMopubSDK",
+  "description": "快速集成广告 刚刚好方法",
+  "homepage": "https://github.com/LongJiangSB/AdMopubSDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,13 @@
     "LongJiang": "983220205@qq.com"
   },
   "source": {
-    "git": "https://github.com/983220205@qq.com/AdMopubSDK.git",
-    "tag": "1.1.0"
+    "git": "https://github.com/LongJiangSB/AdMopubSDK.git",
+    "tag": "1.2.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "vendored_frameworks": "AdMopubSDK.framework",
+  "source_files": "AdMopubSDK/UnityAdapters/**/*",
+  "vendored_frameworks": "AdMopubSDK/AdMopubSDK.framework",
   "requires_arc": true
 }

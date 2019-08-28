@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UnityAdapter.h"
 
 FOUNDATION_EXPORT double AdMopubSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char AdMopubSDKVersionString[];

@@ -6,36 +6,29 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		94311A7571A7705757ADEEDAAD407023 /* AdMopubSDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = B73F2B6D4F7856A1A7D9B4E106246B55 /* Build configuration list for PBXAggregateTarget "AdMopubSDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = AdMopubSDK;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01DFB18DB96E053A54E0EE563E4B8679 /* AdMopubSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6204DE1BDEFF8A122F69C0502B62EC6B /* AdMopubSDK-dummy.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
 		29D55B6D0AC0D62492DA3D6EE3692E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		3ACE6B3A2EA823023EF289189F7A510F /* Pods-AdMopubSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A990724D0F265CC5B8C0547CBBD79C2 /* Pods-AdMopubSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A49ED16F7AA93F666B52ED45A3328A /* UnityAdapter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B95737A1FF4F2630E9CDAC99BEF23E5 /* UnityAdapter.mm */; };
+		3ACE6B3A2EA823023EF289189F7A510F /* Pods-AdMopubSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEC3E679D9C703592B391B085BF9567 /* Pods-AdMopubSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4C832EAB67B47C33AF74E88C0FA0DAE3 /* Pods-AdMopubSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A4A6714376C3A218C70D175FCAE88A /* Pods-AdMopubSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A9300D29074FBB804D23D04286BD045 /* UnityAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F42B04B92440206944038CFF11F42FE /* UnityAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C832EAB67B47C33AF74E88C0FA0DAE3 /* Pods-AdMopubSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD0B80394831A2886E9DCECE63875194 /* Pods-AdMopubSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		7C48A151F888BFD5C9DE6CD6C71E00E6 /* Pods-AdMopubSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF9633886587B00CC32670120AFCFB5 /* Pods-AdMopubSDK_Example-dummy.m */; };
+		7C48A151F888BFD5C9DE6CD6C71E00E6 /* Pods-AdMopubSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 128BA4103BEA0BFA8572E5F8B5511F61 /* Pods-AdMopubSDK_Example-dummy.m */; };
+		81342A3411AE931210B4FFC441149086 /* AdMopubSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FE9151E2D34379A52F96910817AA3C /* AdMopubSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
+		ACBC4D2E0A27224E9D764545AD4CDB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,7 +36,7 @@
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F4CFC8F91EDD32337D1E7FDB3581EE83 /* Pods-AdMopubSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEA21B3E31590535C60D0927943E2A0 /* Pods-AdMopubSDK_Tests-dummy.m */; };
+		F4CFC8F91EDD32337D1E7FDB3581EE83 /* Pods-AdMopubSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5339A4A57868A36D17B44064069B0959 /* Pods-AdMopubSDK_Tests-dummy.m */; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB00FA2622307E1675F4FC90DA80F766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -75,54 +68,64 @@
 /* Begin PBXFileReference section */
 		0A37B745039691F8F6E834769BEDAAFD /* Pods_AdMopubSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdMopubSDK_Example.framework; path = "Pods-AdMopubSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		0C005331506168DF6A2913A706A0C253 /* Pods-AdMopubSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdMopubSDK_Example.modulemap"; sourceTree = "<group>"; };
+		128BA4103BEA0BFA8572E5F8B5511F61 /* Pods-AdMopubSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdMopubSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1522A2E384FB7891025B510546F729E1 /* AdMopubSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdMopubSDK.xcconfig; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		2AEA21B3E31590535C60D0927943E2A0 /* Pods-AdMopubSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdMopubSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		327223120D74B676FAD5914E5BF8BA06 /* Pods-AdMopubSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdMopubSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1B95737A1FF4F2630E9CDAC99BEF23E5 /* UnityAdapter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = UnityAdapter.mm; path = AdMopubSDK/UnityAdapters/UnityAdapter.mm; sourceTree = "<group>"; };
+		219219CE53A18ED91F608702602B2412 /* Pods-AdMopubSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdMopubSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		25CB7359824C70056905740B12980B3F /* Pods-AdMopubSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdMopubSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		32967B78519683F4196387525BF3E2F3 /* AdMopubSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AdMopubSDK-Info.plist"; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		48CA0C06DBA5847CEF71D035155AB02F /* AdMopubSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AdMopubSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4EA9AC3913CED2C186156DB4CB02D3E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4234E9C56F1914363F3C412833EE404E /* Pods-AdMopubSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdMopubSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		4C2BB7C6342E3E3D6BCF1B2AC78D01C1 /* Pods-AdMopubSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdMopubSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		504F7E07C4BABD2F5767CB46E64325D5 /* AdMopubSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AdMopubSDK.modulemap; sourceTree = "<group>"; };
+		5339A4A57868A36D17B44064069B0959 /* Pods-AdMopubSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdMopubSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		60E54ACE3AEC94E989759BDF98B1FABB /* Pods-AdMopubSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdMopubSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		61A4A6714376C3A218C70D175FCAE88A /* Pods-AdMopubSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdMopubSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6AF25A661637B912140BF3DCEA4373A3 /* Pods-AdMopubSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AdMopubSDK_Example.modulemap"; sourceTree = "<group>"; };
-		6B5BBD99E6F956E58A9CCD5BD4E80C61 /* Pods-AdMopubSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdMopubSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F987F598C55A27905E2E893A8A9CC72 /* Pods-AdMopubSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdMopubSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		5F42B04B92440206944038CFF11F42FE /* UnityAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnityAdapter.h; path = AdMopubSDK/UnityAdapters/UnityAdapter.h; sourceTree = "<group>"; };
+		5FEC3E679D9C703592B391B085BF9567 /* Pods-AdMopubSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdMopubSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		6204DE1BDEFF8A122F69C0502B62EC6B /* AdMopubSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AdMopubSDK-dummy.m"; sourceTree = "<group>"; };
+		65D40EDBCB1F4A7D9426A7A957B31B3B /* Pods-AdMopubSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdMopubSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		71D723FC9BA88E60AF3226AC12102D49 /* Pods-AdMopubSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdMopubSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D30C93AB6230C99EDC9AE176BD9718C /* AdMopubSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AdMopubSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8A31EB65BAEA9D398FCAE460542027A3 /* Pods-AdMopubSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdMopubSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		92F5AB30EFC7546C73FBA2EA0DC1578C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9A990724D0F265CC5B8C0547CBBD79C2 /* Pods-AdMopubSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdMopubSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		9C4051FA28C2F29BD0B823D42C67C04C /* Pods-AdMopubSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdMopubSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A06B9885F2E2760727E422DADE569308 /* Pods-AdMopubSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdMopubSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		ABA08969E270FA34BA1CF02747079EFA /* AdMopubSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdMopubSDK-prefix.pch"; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		AFABA364BA4D42D2CB0F31DB61D23774 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B9CE8506BC1A81AA5AF5595333AAB559 /* Pods-AdMopubSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdMopubSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		C07531FB2E94669A6CFC144EBDF78AA5 /* AdMopubSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdMopubSDK.xcconfig; sourceTree = "<group>"; };
+		B49BEB603E86D15CC9F2B0C1EA4C8979 /* Pods-AdMopubSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdMopubSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BC622A19C2149340AC11F980F8339EA0 /* Pods-AdMopubSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdMopubSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD0B80394831A2886E9DCECE63875194 /* Pods-AdMopubSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AdMopubSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C594BFEE26D4B3685DFC91EE6EE1BBCC /* Pods-AdMopubSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdMopubSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB03A16E97B0DEC5B70EF39C625782A8 /* AdMopubSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AdMopubSDK.framework; path = AdMopubSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8F62B87D2AF42A3D299A7863D164BE /* Pods_AdMopubSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AdMopubSDK_Tests.framework; path = "Pods-AdMopubSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE731FFDC69C247CF56EBA07B0D42D36 /* Pods-AdMopubSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdMopubSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		DBA7E00C0E6EE9E63CD1E072A55A5467 /* Pods-AdMopubSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdMopubSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D351E26E17A7C883343B987A34D8FE99 /* Pods-AdMopubSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdMopubSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D436AB854ACF13C0A21ECCF05625AB44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		DFF9633886587B00CC32670120AFCFB5 /* Pods-AdMopubSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdMopubSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E14801280D441701D664DEF4080915FE /* Pods-AdMopubSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdMopubSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E1B41AF87626A50BD95C0152D55D3EC6 /* Pods-AdMopubSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdMopubSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E3BAB8A2EB0ECB309030A8E833D616BA /* Pods-AdMopubSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdMopubSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		E66E4E8E308A9836CFF6B042F1788A21 /* Pods-AdMopubSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdMopubSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E85A66FE35C29CC0E362ED9985F75DC6 /* Pods-AdMopubSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdMopubSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		F0FE9151E2D34379A52F96910817AA3C /* AdMopubSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AdMopubSDK-umbrella.h"; sourceTree = "<group>"; };
+		FFF017CC3DF052BA71E45C6C54167069 /* AdMopubSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdMopubSDK.framework; path = AdMopubSDK/AdMopubSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB00FA2622307E1675F4FC90DA80F766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C511C1E3A2B9F1D9EB5CDB92F8853E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBC4D2E0A27224E9D764545AD4CDB94 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,23 +167,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23D2D191844B71FA084C6E650356C0FD /* Products */ = {
+		32E146A1836330B6927411C5D9EB1653 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				0A37B745039691F8F6E834769BEDAAFD /* Pods_AdMopubSDK_Example.framework */,
-				CB8F62B87D2AF42A3D299A7863D164BE /* Pods_AdMopubSDK_Tests.framework */,
+				504F7E07C4BABD2F5767CB46E64325D5 /* AdMopubSDK.modulemap */,
+				1522A2E384FB7891025B510546F729E1 /* AdMopubSDK.xcconfig */,
+				6204DE1BDEFF8A122F69C0502B62EC6B /* AdMopubSDK-dummy.m */,
+				32967B78519683F4196387525BF3E2F3 /* AdMopubSDK-Info.plist */,
+				ABA08969E270FA34BA1CF02747079EFA /* AdMopubSDK-prefix.pch */,
+				F0FE9151E2D34379A52F96910817AA3C /* AdMopubSDK-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AdMopubSDK";
 			sourceTree = "<group>";
 		};
-		309FD3A0C54ACE9375E76F85E9960245 /* Targets Support Files */ = {
+		375AB1EC1A06FB99AEB37EAFDA4E0351 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4BA960A8A1942C2EEEF30DF8DB8BE62F /* Pods-AdMopubSDK_Example */,
-				8ABD9AF5473B34BA0723B49F02E3BE76 /* Pods-AdMopubSDK_Tests */,
+				9039807B31880651AA23E51AC60301DB /* AdMopubSDK */,
 			);
-			name = "Targets Support Files";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
@@ -189,28 +203,40 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		4BA960A8A1942C2EEEF30DF8DB8BE62F /* Pods-AdMopubSDK_Example */ = {
+		5F190ADB19224B5AAD943B7FF8009C14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6AF25A661637B912140BF3DCEA4373A3 /* Pods-AdMopubSDK_Example.modulemap */,
-				6B5BBD99E6F956E58A9CCD5BD4E80C61 /* Pods-AdMopubSDK_Example-acknowledgements.markdown */,
-				E66E4E8E308A9836CFF6B042F1788A21 /* Pods-AdMopubSDK_Example-acknowledgements.plist */,
-				DFF9633886587B00CC32670120AFCFB5 /* Pods-AdMopubSDK_Example-dummy.m */,
-				6F987F598C55A27905E2E893A8A9CC72 /* Pods-AdMopubSDK_Example-Info.plist */,
-				9A990724D0F265CC5B8C0547CBBD79C2 /* Pods-AdMopubSDK_Example-umbrella.h */,
-				327223120D74B676FAD5914E5BF8BA06 /* Pods-AdMopubSDK_Example.debug.xcconfig */,
-				9C4051FA28C2F29BD0B823D42C67C04C /* Pods-AdMopubSDK_Example.release.xcconfig */,
+				CB03A16E97B0DEC5B70EF39C625782A8 /* AdMopubSDK.framework */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				0A37B745039691F8F6E834769BEDAAFD /* Pods_AdMopubSDK_Example.framework */,
+				CB8F62B87D2AF42A3D299A7863D164BE /* Pods_AdMopubSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700D2BC6798DB13D8D71D901B0F2E3F8 /* Pods-AdMopubSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0C005331506168DF6A2913A706A0C253 /* Pods-AdMopubSDK_Example.modulemap */,
+				CE731FFDC69C247CF56EBA07B0D42D36 /* Pods-AdMopubSDK_Example-acknowledgements.markdown */,
+				8A31EB65BAEA9D398FCAE460542027A3 /* Pods-AdMopubSDK_Example-acknowledgements.plist */,
+				128BA4103BEA0BFA8572E5F8B5511F61 /* Pods-AdMopubSDK_Example-dummy.m */,
+				4C2BB7C6342E3E3D6BCF1B2AC78D01C1 /* Pods-AdMopubSDK_Example-frameworks.sh */,
+				E3BAB8A2EB0ECB309030A8E833D616BA /* Pods-AdMopubSDK_Example-Info.plist */,
+				5FEC3E679D9C703592B391B085BF9567 /* Pods-AdMopubSDK_Example-umbrella.h */,
+				71D723FC9BA88E60AF3226AC12102D49 /* Pods-AdMopubSDK_Example.debug.xcconfig */,
+				B49BEB603E86D15CC9F2B0C1EA4C8979 /* Pods-AdMopubSDK_Example.release.xcconfig */,
 			);
 			name = "Pods-AdMopubSDK_Example";
 			path = "Target Support Files/Pods-AdMopubSDK_Example";
 			sourceTree = "<group>";
 		};
-		6FF66C8F9F61AD96D99A6654A842EB3E /* Development Pods */ = {
+		7C254ED1E32A0F9BEA49DEEBB65C2F64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B3C1E718EEB7D1E76A1F49748252B39C /* AdMopubSDK */,
+				FFF017CC3DF052BA71E45C6C54167069 /* AdMopubSDK.framework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
@@ -232,21 +258,17 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		8ABD9AF5473B34BA0723B49F02E3BE76 /* Pods-AdMopubSDK_Tests */ = {
+		9039807B31880651AA23E51AC60301DB /* AdMopubSDK */ = {
 			isa = PBXGroup;
 			children = (
-				60E54ACE3AEC94E989759BDF98B1FABB /* Pods-AdMopubSDK_Tests.modulemap */,
-				E85A66FE35C29CC0E362ED9985F75DC6 /* Pods-AdMopubSDK_Tests-acknowledgements.markdown */,
-				A06B9885F2E2760727E422DADE569308 /* Pods-AdMopubSDK_Tests-acknowledgements.plist */,
-				2AEA21B3E31590535C60D0927943E2A0 /* Pods-AdMopubSDK_Tests-dummy.m */,
-				DBA7E00C0E6EE9E63CD1E072A55A5467 /* Pods-AdMopubSDK_Tests-frameworks.sh */,
-				B9CE8506BC1A81AA5AF5595333AAB559 /* Pods-AdMopubSDK_Tests-Info.plist */,
-				61A4A6714376C3A218C70D175FCAE88A /* Pods-AdMopubSDK_Tests-umbrella.h */,
-				E1B41AF87626A50BD95C0152D55D3EC6 /* Pods-AdMopubSDK_Tests.debug.xcconfig */,
-				E14801280D441701D664DEF4080915FE /* Pods-AdMopubSDK_Tests.release.xcconfig */,
+				5F42B04B92440206944038CFF11F42FE /* UnityAdapter.h */,
+				1B95737A1FF4F2630E9CDAC99BEF23E5 /* UnityAdapter.mm */,
+				7C254ED1E32A0F9BEA49DEEBB65C2F64 /* Frameworks */,
+				A04096D0380E34928B3BF67231185D28 /* Pod */,
+				32E146A1836330B6927411C5D9EB1653 /* Support Files */,
 			);
-			name = "Pods-AdMopubSDK_Tests";
-			path = "Target Support Files/Pods-AdMopubSDK_Tests";
+			name = AdMopubSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
@@ -281,14 +303,31 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		B3C1E718EEB7D1E76A1F49748252B39C /* AdMopubSDK */ = {
+		A04096D0380E34928B3BF67231185D28 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D3AFF328DD38ADD8430E428871BA7B9C /* Pod */,
-				DF19934F2C89306BDD468F6185603CC6 /* Support Files */,
+				7D30C93AB6230C99EDC9AE176BD9718C /* AdMopubSDK.podspec */,
+				92F5AB30EFC7546C73FBA2EA0DC1578C /* LICENSE */,
+				D436AB854ACF13C0A21ECCF05625AB44 /* README.md */,
 			);
-			name = AdMopubSDK;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B9F182FCB6EF11BC3B66104592816C66 /* Pods-AdMopubSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4234E9C56F1914363F3C412833EE404E /* Pods-AdMopubSDK_Tests.modulemap */,
+				C594BFEE26D4B3685DFC91EE6EE1BBCC /* Pods-AdMopubSDK_Tests-acknowledgements.markdown */,
+				219219CE53A18ED91F608702602B2412 /* Pods-AdMopubSDK_Tests-acknowledgements.plist */,
+				5339A4A57868A36D17B44064069B0959 /* Pods-AdMopubSDK_Tests-dummy.m */,
+				D351E26E17A7C883343B987A34D8FE99 /* Pods-AdMopubSDK_Tests-frameworks.sh */,
+				65D40EDBCB1F4A7D9426A7A957B31B3B /* Pods-AdMopubSDK_Tests-Info.plist */,
+				BD0B80394831A2886E9DCECE63875194 /* Pods-AdMopubSDK_Tests-umbrella.h */,
+				25CB7359824C70056905740B12980B3F /* Pods-AdMopubSDK_Tests.debug.xcconfig */,
+				BC622A19C2149340AC11F980F8339EA0 /* Pods-AdMopubSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-AdMopubSDK_Tests";
+			path = "Target Support Files/Pods-AdMopubSDK_Tests";
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -299,35 +338,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BE407B1DAD4146B85841A231D38B7FD8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				700D2BC6798DB13D8D71D901B0F2E3F8 /* Pods-AdMopubSDK_Example */,
+				B9F182FCB6EF11BC3B66104592816C66 /* Pods-AdMopubSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6FF66C8F9F61AD96D99A6654A842EB3E /* Development Pods */,
+				375AB1EC1A06FB99AEB37EAFDA4E0351 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				23D2D191844B71FA084C6E650356C0FD /* Products */,
-				309FD3A0C54ACE9375E76F85E9960245 /* Targets Support Files */,
+				5F190ADB19224B5AAD943B7FF8009C14 /* Products */,
+				BE407B1DAD4146B85841A231D38B7FD8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D3AFF328DD38ADD8430E428871BA7B9C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				48CA0C06DBA5847CEF71D035155AB02F /* AdMopubSDK.podspec */,
-				AFABA364BA4D42D2CB0F31DB61D23774 /* LICENSE */,
-				4EA9AC3913CED2C186156DB4CB02D3E9 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		DF19934F2C89306BDD468F6185603CC6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C07531FB2E94669A6CFC144EBDF78AA5 /* AdMopubSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AdMopubSDK";
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -341,6 +370,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1AAEC81EB74DBAC13155D12F13716A4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81342A3411AE931210B4FFC441149086 /* AdMopubSDK-umbrella.h in Headers */,
+				4A9300D29074FBB804D23D04286BD045 /* UnityAdapter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26E8C006A0B03AA56326CFA5AAA91F70 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,6 +430,24 @@
 			name = "Pods-AdMopubSDK_Example";
 			productName = "Pods-AdMopubSDK_Example";
 			productReference = 0A37B745039691F8F6E834769BEDAAFD /* Pods_AdMopubSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94311A7571A7705757ADEEDAAD407023 /* AdMopubSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315B4B8B1EBA4711B5DD464BEBB34F2C /* Build configuration list for PBXNativeTarget "AdMopubSDK" */;
+			buildPhases = (
+				1AAEC81EB74DBAC13155D12F13716A4E /* Headers */,
+				EDDEB29598DD03BE4488D4A5E357EE40 /* Sources */,
+				8C511C1E3A2B9F1D9EB5CDB92F8853E9 /* Frameworks */,
+				618964D426374F15D2B37F510D1788EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdMopubSDK;
+			productName = AdMopubSDK;
+			productReference = CB03A16E97B0DEC5B70EF39C625782A8 /* AdMopubSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
@@ -449,7 +505,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 23D2D191844B71FA084C6E650356C0FD /* Products */;
+			productRefGroup = 5F190ADB19224B5AAD943B7FF8009C14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -477,6 +533,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618964D426374F15D2B37F510D1788EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,6 +581,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDDEB29598DD03BE4488D4A5E357EE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DFB18DB96E053A54E0EE563E4B8679 /* AdMopubSDK-dummy.m in Sources */,
+				38A49ED16F7AA93F666B52ED45A3328A /* UnityAdapter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -544,7 +616,7 @@
 /* Begin XCBuildConfiguration section */
 		24774038413292ECC1300DDD79BD5D14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 327223120D74B676FAD5914E5BF8BA06 /* Pods-AdMopubSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 71D723FC9BA88E60AF3226AC12102D49 /* Pods-AdMopubSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -575,9 +647,41 @@
 			};
 			name = Debug;
 		};
+		378E4C90BBD697DC825757D38BB0AF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1522A2E384FB7891025B510546F729E1 /* AdMopubSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AdMopubSDK/AdMopubSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdMopubSDK/AdMopubSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdMopubSDK/AdMopubSDK.modulemap";
+				PRODUCT_MODULE_NAME = AdMopubSDK;
+				PRODUCT_NAME = AdMopubSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		5AD5DBF5E547A9F322C5C0CFC0DA0E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1B41AF87626A50BD95C0152D55D3EC6 /* Pods-AdMopubSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 25CB7359824C70056905740B12980B3F /* Pods-AdMopubSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -639,33 +743,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		744432F6C1C03890D8687885668E4370 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C07531FB2E94669A6CFC144EBDF78AA5 /* AdMopubSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		828D7535954768E6358511D8A072CCD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C07531FB2E94669A6CFC144EBDF78AA5 /* AdMopubSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -791,9 +868,40 @@
 			};
 			name = Debug;
 		};
+		AD8953EACA5AD13D10DD59A3645EB5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1522A2E384FB7891025B510546F729E1 /* AdMopubSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AdMopubSDK/AdMopubSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AdMopubSDK/AdMopubSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AdMopubSDK/AdMopubSDK.modulemap";
+				PRODUCT_MODULE_NAME = AdMopubSDK;
+				PRODUCT_NAME = AdMopubSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C0A1DB18059E5317CAED3F09ECA3EED9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E14801280D441701D664DEF4080915FE /* Pods-AdMopubSDK_Tests.release.xcconfig */;
+			baseConfigurationReference = BC622A19C2149340AC11F980F8339EA0 /* Pods-AdMopubSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -827,7 +935,7 @@
 		};
 		EB7E408FF9C62C0C1D327EFD8DC62B83 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C4051FA28C2F29BD0B823D42C67C04C /* Pods-AdMopubSDK_Example.release.xcconfig */;
+			baseConfigurationReference = B49BEB603E86D15CC9F2B0C1EA4C8979 /* Pods-AdMopubSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -893,6 +1001,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		315B4B8B1EBA4711B5DD464BEBB34F2C /* Build configuration list for PBXNativeTarget "AdMopubSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD8953EACA5AD13D10DD59A3645EB5A3 /* Debug */,
+				378E4C90BBD697DC825757D38BB0AF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -916,15 +1033,6 @@
 			buildConfigurations = (
 				EE252C6C51286892441EE171776C7E81 /* Debug */,
 				6981B49048575F8238B3C5B905C918E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B73F2B6D4F7856A1A7D9B4E106246B55 /* Build configuration list for PBXAggregateTarget "AdMopubSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				828D7535954768E6358511D8A072CCD7 /* Debug */,
-				744432F6C1C03890D8687885668E4370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

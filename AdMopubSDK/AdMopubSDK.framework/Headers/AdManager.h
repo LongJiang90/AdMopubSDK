@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+
 #define JLWeakSelf __weak typeof(self) weakSelf = self;
 #define JLStrongSelf __strong typeof(self) strongSelf = weakSelf;
 
@@ -38,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void)interstitialDidLoadAd;
 /**
- interstitial加载失败
+ interstitial加载失败， 仅在手动加载单条广告且加载失败时才会调用
  
  @param errMsg 错误msg
  */
@@ -63,7 +64,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void)rewardedVideoDidLoadAd;
 /**
- rewardedVideo加载失败
+ rewardedVideo加载失败， 仅在手动加载单条广告且加载失败时才会调用
  
  @param errMsg 错误msg
  */
@@ -105,6 +106,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSArray *rewardedVideoUnitIdsArr;
 /// 应用程序的Apple ID（取自iTunes Connect上的应用程序页面）  必填
 @property (nonatomic, copy) NSString *itunsConnectAppID;
+
+/// 穿山甲广告SDK AppID
+@property (nonatomic, copy) NSString *TtadAppID;
+/// 穿山甲广告SDK 视频广告ID
+@property (nonatomic, copy) NSString *TtadVideoID;
 
 /// 回调协议
 @property (nonatomic, weak) id<AdManagerDelegate> delegate;
@@ -171,13 +177,26 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)showRewardedVideoAdWithViewController:(UIViewController *)aVC;
 
 
+//TODO:FireBase配置
+/**
+ fireBase提取远程值并缓存
+ */
+-(void)fireBaseFetch;
 
+/**
+ fireBase激活缓存的值（应先调用fireBaseFetch方法后 再调用本方法）
+ */
+-(void)fireBaseActiveFetched;
 
+/**
+ fireBase提取并激活值
+ */
+-(void)fireBaseFetchAndActivate;
+
+#pragma mark - Unavailable Initializers
 /// 设置单例调用这些方法无效
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
-//- (id)copy NS_UNAVAILABLE; // 没有遵循协议可以不写
-//- (id)mutableCopy NS_UNAVAILABLE; // 没有遵循协议可以不写
 
 @end
 
