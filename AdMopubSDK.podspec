@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdMopubSDK'
-  s.version          = '1.1.1'
+  s.version          = '1.2.0'
   s.summary          = '快速集成广告.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  # s.source_files = 'AdMopubSDK/Classes/**/*'
+  s.source_files = 'AdMopubSDK/UnityAdapters/**/*'
   
   s.vendored_frameworks = 'AdMopubSDK/AdMopubSDK.framework'
   
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   #   'AdMopubSDK' => ['AdMopubSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/UnityAdapters/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
