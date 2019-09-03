@@ -16,4 +16,7 @@ FOUNDATION_EXPORT const unsigned char AdMopubSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AdMopubSDK/PublicHeader.h>
 #import <AdMopubSDK/AdManager.h>
+#import <AdMopubSDK/AnalyticsManager.h>
+#import <AdMopubSDK/NSDictionary+Json.h>
+//#import <AdMopubSDK/UnityAdapter.h>
 

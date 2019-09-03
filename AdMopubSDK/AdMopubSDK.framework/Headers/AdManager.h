@@ -126,7 +126,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  初始化Manager
  */
--(void)initAd;
+-(void)initAdWithAdUnitsJson:(NSString *)adUnitsJson appflyersId:(NSString *)appflyersId umengId:(NSString *)umengId;
 
 //TODO:Banner相关函数
 /**
@@ -177,21 +177,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)showRewardedVideoAdWithViewController:(UIViewController *)aVC;
 
 
-//TODO:FireBase配置
-/**
- fireBase提取远程值并缓存
- */
--(void)fireBaseFetch;
 
-/**
- fireBase激活缓存的值（应先调用fireBaseFetch方法后 再调用本方法）
- */
--(void)fireBaseActiveFetched;
-
-/**
- fireBase提取并激活值
- */
--(void)fireBaseFetchAndActivate;
 
 #pragma mark - Unavailable Initializers
 /// 设置单例调用这些方法无效
