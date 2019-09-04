@@ -104,8 +104,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSArray *interstitialUnitIdsArr;
 /// rewardedVideo广告IDs
 @property (nonatomic, strong) NSArray *rewardedVideoUnitIdsArr;
-/// 应用程序的Apple ID（取自iTunes Connect上的应用程序页面）  必填
-@property (nonatomic, copy) NSString *itunsConnectAppID;
 
 /// 穿山甲广告SDK AppID
 @property (nonatomic, copy) NSString *TtadAppID;

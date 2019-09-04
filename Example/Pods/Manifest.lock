@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AdMopubSDK: ffacbcf8f608abf23551e62274e8e1beffd86c7a
+  AdMopubSDK: 27bc0b2a7d28d4be8e9f9e9e30841b65295905e2
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: c9c8b5f5b0caf2679b14db99ef2c36089022e83a

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-快速集成广告 刚刚好方法
+快速集成广告, MopubSDK广告集成，游戏相关统计集合。便于游戏使用广告，统计数据。
                        DESC
 
   s.homepage         = 'https://github.com/LongJiangSB/AdMopubSDK'
@@ -30,18 +30,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  # s.source_files = 'AdMopubSDK/UnityAdapters/*'
+  s.source_files = 'AdMopubSDK/Classes/**'
   
   s.vendored_frameworks = 'AdMopubSDK/AdMopubSDK.framework'
-  
-  #是否支持ARC
-  s.requires_arc = true
   
   # s.resource_bundles = {
   #   'AdMopubSDK' => ['AdMopubSDK/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/UnityAdapters/**/*.h'
+  s.public_header_files = 'Pod/AdMopubSDK/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
