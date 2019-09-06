@@ -12,6 +12,9 @@
  private static extern void InitUnityAdSdk(string adUnitsJson, string appflyersId, string umengId);
  
  [DllImport("__Internal")]
+ private static extern void OnlyUseMopubSDK(bool onlyUse);
+ 
+ [DllImport("__Internal")]
  private static extern void LoadAndShowBannerAd(string adPostion);
  
  [DllImport("__Internal")]
@@ -106,6 +109,10 @@ extern "C"{
     }else{
         return YES;
     }
+}
+
+-(void)onlyUseMopubSDKByBool:(bool)onlyUse {
+    [AdManager sharedManager].onlyUseMopubSDK = onlyUse;
 }
 
 // SDK中初始化方法
@@ -321,6 +328,13 @@ extern "C"{
     static UnityAdapter *helper;
     
     //TODO:供u3d调用的c函数
+    void OnlyUseMopubSDK(bool only) {
+        if(helper == NULL){
+            helper = [UnityAdapter new];
+        }
+        [helper onlyUseMopubSDKByBool:only];
+    }
+    
     ///adUnitsJson 同firebase的json字符串
     void InitUnityAdSdk(const char * adUnitsJson,const char * appflyersId,const char * umengId) {
         if(helper == NULL){

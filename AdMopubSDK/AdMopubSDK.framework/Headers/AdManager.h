@@ -104,11 +104,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSArray *interstitialUnitIdsArr;
 /// rewardedVideo广告IDs
 @property (nonatomic, strong) NSArray *rewardedVideoUnitIdsArr;
+/// 是否只使用MopubSDK，yes-只使用，no-混合使用
+@property (nonatomic, assign) BOOL onlyUseMopubSDK;
+
 
 /// 穿山甲广告SDK AppID
 @property (nonatomic, copy) NSString *TtadAppID;
 /// 穿山甲广告SDK 视频广告ID
 @property (nonatomic, copy) NSString *TtadVideoID;
+
 
 /// 回调协议
 @property (nonatomic, weak) id<AdManagerDelegate> delegate;
