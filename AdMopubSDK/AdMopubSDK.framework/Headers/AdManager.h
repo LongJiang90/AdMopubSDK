@@ -107,7 +107,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 是否只使用MopubSDK，yes-只使用，no-混合使用
 @property (nonatomic, assign) BOOL onlyUseMopubSDK;
 
-
 /// 穿山甲广告SDK AppID
 @property (nonatomic, copy) NSString *TtadAppID;
 /// 穿山甲广告SDK 视频广告ID
@@ -125,10 +124,15 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (instancetype)sharedManager;
 
+
 /**
  初始化Manager
+
+ @param adUnitsJson json格式的所有ID
+ @param appAppleId 苹果应用ID
+ @param umengId 友盟统计应用ID
  */
--(void)initAdWithAdUnitsJson:(NSString *)adUnitsJson appflyersId:(NSString *)appflyersId umengId:(NSString *)umengId;
+-(void)initAdWithAdUnitsJson:(NSString *)adUnitsJson appAppleId:(NSString *)appAppleId umengId:(NSString *)umengId;
 
 //TODO:Banner相关函数
 /**

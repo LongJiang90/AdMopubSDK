@@ -9,10 +9,7 @@
  在Unity中需要调用的类中定义以下方法以便调用
  //广告相关函数
  [DllImport("__Internal")]
- private static extern void InitUnityAdSdk(string adUnitsJson, string appflyersId, string umengId);
- 
- [DllImport("__Internal")]
- private static extern void OnlyUseMopubSDK(bool onlyUse);
+ private static extern void InitUnityAdSdk(string adUnitsJson, string appAppleId, string umengId);
  
  [DllImport("__Internal")]
  private static extern void LoadAndShowBannerAd(string adPostion);
@@ -111,14 +108,10 @@ extern "C"{
     }
 }
 
--(void)onlyUseMopubSDKByBool:(bool)onlyUse {
-    [AdManager sharedManager].onlyUseMopubSDK = onlyUse;
-}
-
 // SDK中初始化方法
--(void)initUnityAdSdkWithAdUnitsJson:(const char *)adUnitsJson appflyersId:(const char *)appflyersId umengId:(const char *)umengId {
+-(void)initUnityAdSdkWithAdUnitsJson:(const char *)adUnitsJson appAppleId:(const char *)appAppleId umengId:(const char *)umengId {
     NSString *adUnitsJsonStr = [NSString stringWithCString:adUnitsJson encoding:NSUTF8StringEncoding];
-    NSString *appflyersIdStr = [NSString stringWithCString:appflyersId encoding:NSUTF8StringEncoding];
+    NSString *appAppleIdStr = [NSString stringWithCString:appAppleId encoding:NSUTF8StringEncoding];
     NSString *umengIdStr = [NSString stringWithCString:umengId encoding:NSUTF8StringEncoding];
     
 //    [AdManager sharedManager].bannerUnitIdsArr = @[@"0ac59b0996d947309c33f59d6676399f"];
@@ -130,7 +123,7 @@ extern "C"{
 //    }
     
     [AdManager sharedManager].delegate = self;
-    [[AdManager sharedManager] initAdWithAdUnitsJson:adUnitsJsonStr appflyersId:appflyersIdStr umengId:umengIdStr];
+    [[AdManager sharedManager] initAdWithAdUnitsJson:adUnitsJsonStr appAppleId:appAppleIdStr umengId:umengIdStr];
     
 }
 
@@ -328,19 +321,12 @@ extern "C"{
     static UnityAdapter *helper;
     
     //TODO:供u3d调用的c函数
-    void OnlyUseMopubSDK(bool only) {
-        if(helper == NULL){
-            helper = [UnityAdapter new];
-        }
-        [helper onlyUseMopubSDKByBool:only];
-    }
-    
     ///adUnitsJson 同firebase的json字符串
-    void InitUnityAdSdk(const char * adUnitsJson,const char * appflyersId,const char * umengId) {
+    void InitUnityAdSdk(const char * adUnitsJson,const char * appAppleId,const char * umengId) {
         if(helper == NULL){
             helper = [UnityAdapter new];
         }
-        [helper initUnityAdSdkWithAdUnitsJson:adUnitsJson appflyersId:appflyersId umengId:umengId];
+        [helper initUnityAdSdkWithAdUnitsJson:adUnitsJson appAppleId:appflyersId umengId:umengId];
     }
     
     void LoadAndShowBannerAd(const char *adPostion) {
