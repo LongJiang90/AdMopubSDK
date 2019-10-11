@@ -13,6 +13,16 @@
 #define JLWeakSelf __weak typeof(self) weakSelf = self;
 #define JLStrongSelf __strong typeof(self) strongSelf = weakSelf;
 
+typedef NS_ENUM(NSInteger, BannerPosition) {
+    BannerPosition_TopLeft = 0,
+    BannerPosition_TopCenter = 1,
+    BannerPosition_TopRight,
+    BannerPosition_Centered,
+    BannerPosition_BottomLeft,
+    BannerPosition_BottomCenter,
+    BannerPosition_BottomRight
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol AdManagerDelegate <NSObject>
@@ -90,7 +100,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
-@interface AdManager : NSObject
+@interface AdManager : UIViewController
 
 /// 请求超时时间  默认30s
 @property (nonatomic, assign) NSInteger timeOut;

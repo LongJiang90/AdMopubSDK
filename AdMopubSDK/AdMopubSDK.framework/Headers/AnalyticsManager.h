@@ -8,16 +8,33 @@
 
 #import <Foundation/Foundation.h>
 
+
+
+
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface AnalyticsManager : NSObject
+
+
+/// 自定义统计事件
+/// @param keyStr 事件名称
+/// @param dicJsonStr 事件参数字典JSON字符串
++ (void)customEventWithKey:(NSString *)keyStr dicJsonStr:(NSString *)dicJsonStr;
+
+/**
+ 视频填充是否成功
+
+ @param isSuc YES-成功，NO-失败
+ */
++ (void)videoFillSuccessfulOrFail:(BOOL)isSuc;
 
 /**
  设置用户当前等级
 
  @param level 等级
  */
-+ (void)setUserLevelId:(int)level;
++ (void)setUserLevelId:(int)level DEPRECATED_MSG_ATTRIBUTE("由于友盟改版，该埋点无默认的事件Key，请自行使用自定义事件定义");
 
 /** 玩家支付货币兑换虚拟币.
  
